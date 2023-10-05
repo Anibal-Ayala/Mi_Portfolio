@@ -60,6 +60,10 @@ h1 {
 
 
 
+.hero-inferior{
+    margin: 20px;
+}
+
 
 
 
@@ -73,6 +77,13 @@ h1 {
     .navbar-brand {
         display: none;
     }
+
+ .container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end !important;
+ }
 }
 
 
