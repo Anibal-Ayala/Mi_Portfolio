@@ -6,7 +6,41 @@
 }
 
 
+/*Estilos generales*/
 
+.seccion-oscura{
+    color: white ;
+    background-color: #1b1b32;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
 /*Barra de Navegación*/
 
 .navbar {
@@ -58,8 +92,8 @@ h1 {
 }
 
 .hero-principal h2 {
-    font-size: 1.rem;
-    color: #615151;
+    font-size: 1.2rem;
+    color: #615151; 
 }
 
 
@@ -68,12 +102,104 @@ h1 {
     margin: 20px;
 }
 
+/*Sección sobre mi*/
 
 
 
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*Proyectos*/
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+
+.mis-proyectos{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 2rem;
+}
+
+.imagenes-mis-proyectos img{
+    width: 250px;
+}
+
+
+.parrafos-proyecto{
+font-size: 1rem ;
+text-align: center;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+margin: 2rem;
+}
+
+
+/*contcto*/
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
 
 
 
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(13,110,253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25rem 2rem ;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Footer*/
+
+.footer-imgs {
+    width: 30px;
+    margin: 10px;
+}
 
 /*Responsive*/
 
